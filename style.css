@@ -19,3 +19,10 @@ input {
     width: 20px;
     height: 20px;
 }
+
+#buttons {
+
+    text-align:center;
+}
+
+.searchbox {display: flex;}
