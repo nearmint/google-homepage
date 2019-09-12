@@ -1,0 +1,72 @@
+<div class="body">
+ 
+    https://dzone.com/articles/css-position-relative-vs-position-absolute
+    
+    Floating -> Clear after.
+float: left 
+float: right
+
+Position Absolute -> Make things fly
+top:
+left:
+right: 
+bottom:
+
+
+    <div class="header">
+      
+       <div class="left">
+        <span>One</span>
+        <span>Two</span>
+         
+         
+          <div class="absolute">
+      <p>Experience</p>
+      <p>What can be</p>
+    </div>
+         
+         
+      </div>
+      
+      <div class="right">
+        <span>Three</span>
+        <span>Four</span>
+      </div>
+      
+    </div>
+    
+    <p class="clear">Header</p>
+    
+  </div>
+  
+  
+  <style>
+    .absolute{
+        background-color: orange;
+      position: absolute;
+      right: 0;
+      top: 200px;
+      left: 100px;
+      bottom: 50px;
+    }
+    .body{
+  
+    }
+    .header{
+        background-color: blue;
+    }
+    .left{
+        background-color: green;
+      float: right;
+      position: relative;
+      top: 50px;
+    }
+    .right{
+        background-color: red;
+      float: right;
+    }
+    .clear{
+        clear: both;
+    }
+    
+  </style>

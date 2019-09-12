@@ -1,4 +1,15 @@
 
+.nav-topright {
+    position: absolute;
+    right: 0;
+    width: 291px;
+    top: 30px;
+}
+
+.bilder {
+padding-left: 15px;
+}
+
 .store {
     padding-left: 15px;
 }
@@ -13,12 +24,17 @@ a:hover {
 text-decoration: underline;
 }
 
-.nav-topleft {
+.nav {
     color: #000;
     padding-left: 15px;
     font-size: 13px;
     font-family: arial,sans-serif;
+  
 
+}
+
+.nav-topleft {
+    margin-top: 30px;
 }
 
 img {
