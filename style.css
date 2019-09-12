@@ -1,3 +1,21 @@
+a {
+    text-decoration: none;
+    color: #000;
+    opacity: 0.75;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+.nav-topleft {
+    color: #000;
+    padding-left: 15px;
+    font-size: 13px;
+    font-family: arial,sans-serif;
+
+}
+
 img {
     display:block;
     margin-left: auto;
@@ -44,7 +62,7 @@ width: 527px;
     border: transparent;
     font: 16px arial, sans-serif;
 }
-
+/* I don't know below commands and need to be educated on those */
 .container-center {
     display: flex;
     flex-direction: column;
