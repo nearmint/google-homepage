@@ -1,9 +1,14 @@
+body {
+    background-color: white;
+}
 
 .nav-topright {
     position: absolute;
     right: 0;
     width: 291px;
     top: 30px;
+    text-align: right;
+    padding: 0 30px;
 }
 
 .bilder {
