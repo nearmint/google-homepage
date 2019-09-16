@@ -88,25 +88,9 @@ box-sizing: border-box;
 }
 
 
-#nutzungsbedingungen {
+#nutzungsbedingungen, #einstellungen, #unternehmen, #funktioniert {
     padding-left: 27px;
 }
-
-
-#einstellungen {
-    padding-left: 27px;
-}
-
-
-#unternehmen {
-    padding-left: 27px;
-}
-
-
-#funktioniert {
-    padding-left: 27px;
-}
-
 
 .nav-topleft {
     margin-top: 30px;
